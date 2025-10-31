@@ -41,17 +41,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/span/";
           
         },
-      },{id: "post-a-post-about-span",
-        
-          title: "a post about Span",
-        
-        description: "what is span",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/spans/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",

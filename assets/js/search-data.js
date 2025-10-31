@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-about-span",
-        
-          title: "a post about Span",
-        
-        description: "what is span",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/spans/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {

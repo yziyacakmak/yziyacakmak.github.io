@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-code",
+        },{id: "post-a-post-about-span",
         
-          title: "a post with code",
+          title: "a post about Span",
         
-        description: "an example of a blog post with some code",
+        description: "what is span",
         section: "Posts",
         handler: () => {
           

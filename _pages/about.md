@@ -10,6 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>A nice day in Washington D.C.</p>
+    <p>
+      <a href="https://github.com/yziyacakmak" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
+      <a href="mailto:yusufzcakmakl@gmail.com"><i class="fas fa-envelope"></i> E-mail</a>
+    </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -25,5 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a software engineer at Saykal Electronics, where I specialize in designing and developing software with a focus on user interfaces for automotive embedded systems. I hold a Bachelor's degree in Mechanical Engineering from Kocaeli University and also pursued a double major in Mechatronics Engineering, although I chose to discontinue the program to fully focus on my professional career after entering the workforce. I am deeply interested in automotive cybersecurity, secure software updating, and the technical depths of C# programming, including topics like garbage collection and source generators. Beyond my professional life, I am an enthusiast of Turkish classical music and enjoy playing the [ney](https://en.wikipedia.org/wiki/Ney) as a hobby.
+I am a software engineer at Saykal Electronics, where I specialize in designing and developing software with a focus on user interfaces for automotive embedded systems. In recent years, I have become interested in building high-performance, web-based applications using modern technologies such as WebAssembly, and I enjoy exploring how these approaches can bring native-like speed. I believe that being part of this shift can make application deployment and updates much more efficient. I am also deeply interested in automotive cybersecurity and secure software updates. 
+
+Beyond my professional work, I have a deep interest in the technical depths of C# programming, exploring topics such as garbage collection and source generators. Outside of programming, I am an enthusiast of Turkish classical music and enjoy playing the [ney](https://en.wikipedia.org/wiki/Ney) as a hobby.
 

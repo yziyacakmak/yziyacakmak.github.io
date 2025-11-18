@@ -58,6 +58,13 @@ profile:
           transform: scale(1.05);
           background-color: #4b4fa0;
       }
+      .text-center {
+        text-align: center;
+      }
+
+      .text-white {
+        color: var(--text-color);
+      }
 
       #catEasterEgg {
           position: fixed;
@@ -93,9 +100,9 @@ profile:
           font-size: 16px;
       }
     </style>
-    <button class="surprise-button" id="surpriseTrigger">Click for a surprise! 🎁</button>
+    <button class="surprise-button"q id="surpriseTrigger">Click for a surprise! 🎁</button>
     <div id="catEasterEgg">
-      <p>You found a secret cat! 🐱</p>
+      <p style="text-align: center; color: var(--text-color);">You found a secret cat! 🐱</p>
       <img src="https://thecatapi.com/api/images/get?format=src&type=gif">
     </div>
     <script>

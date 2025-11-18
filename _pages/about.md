@@ -29,7 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a software engineer at Saykal Electronics, where I specialize in designing and developing software with a focus on user interfaces for automotive embedded systems. In recent years, I have become interested in building high-performance, web-based applications using modern technologies such as WebAssembly, and I enjoy exploring how these approaches can bring native-like speed. I believe that being part of this shift can make application deployment and updates much more efficient. I am also deeply interested in automotive cybersecurity and secure software updates. 
+I am a software engineer at Saykal Electronics, specializing in user interface design and development for automotive embedded systems. Recently, I've grown interested in building high-performance web applications using modern technologies like WebAssembly, particularly exploring how these approaches deliver native-like speed. I see this shift as an opportunity to make application deployment and updates significantly more efficient. I'm also passionate about automotive cybersecurity and secure software update mechanisms.
 
-Beyond my professional work, I have a deep interest in the technical depths of C# programming, exploring topics such as garbage collection and source generators. Outside of programming, I am an enthusiast of Turkish classical music and enjoy playing the [ney](https://en.wikipedia.org/wiki/Ney) as a hobby.
+Beyond my day-to-day work, I enjoy diving into the technical depths of C# programming, studying topics like garbage collection internals and source generators. When I'm not coding, I'm an enthusiast of Turkish classical music and play the [ney](https://en.wikipedia.org/wiki/Ney) as a hobby.
+
 

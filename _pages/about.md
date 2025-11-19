@@ -12,7 +12,7 @@ profile:
     <p>A nice day in Washington D.C.</p>
     <p>
       <a href="https://github.com/yziyacakmak" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
-      <a href="mailto:yusufzcakmakl@gmail.com"><i class="fas fa-envelope"></i> Contact Me</a>
+      <a href="mailto:yusufzcakmak@gmail.com"><i class="fas fa-envelope"></i> Contact Me</a>
     </p>
     <style>
       body {
@@ -74,7 +74,9 @@ profile:
           background: #5F65AC;
           padding: 20px;
           border-radius: 12px;
-          display: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
           text-align: center;
           z-index: 1000;
           color: #fff;

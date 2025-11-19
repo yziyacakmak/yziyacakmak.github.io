@@ -15,23 +15,16 @@ profile:
       <a href="mailto:yusufzcakmak@gmail.com"><i class="fas fa-envelope"></i> Contact Me</a>
     </p>
     <style>
-      a {
+      .profile a {
           text-decoration: none;
           font-size: 18px;
           margin: 8px;
       }
-      a:hover {
+      .profile a:hover {
           color: #5F65AC;
           text-decoration: underline;
       }
-      .social-links {
-          display: flex;
-          gap: 20px;
-          margin-bottom: 20px;
-          flex-wrap: wrap;
-          justify-content: center;
-      }
-      .surprise-button {
+      .profile .surprise-button {
           padding: 12px 24px;
           background: #5F65AC;
           color: #fff;
@@ -42,7 +35,7 @@ profile:
           transition: transform 0.2s ease, background-color 0.2s ease;
           margin-bottom: 20px;
       }
-      .surprise-button:hover {
+      .profile .surprise-button:hover {
           transform: scale(1.05);
           background-color: #4b4fa0;
       }
@@ -83,7 +76,7 @@ profile:
         font-size: 16px;
       } 
     </style>
-    <button class="surprise-button"q id="surpriseTrigger">Click for a surprise! 🎁</button>
+    <button class="surprise-button" id="surpriseTrigger">Click for a surprise! 🎁</button>
     <div id="catEasterEgg">
       <p>You found a secret cat! 🐱</p>
       <img src="https://thecatapi.com/api/images/get?format=src&type=gif">

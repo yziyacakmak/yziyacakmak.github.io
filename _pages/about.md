@@ -15,19 +15,7 @@ profile:
       <a href="mailto:yusufzcakmak@gmail.com"><i class="fas fa-envelope"></i> Contact Me</a>
     </p>
     <style>
-      body {
-          font-family: 'Inter', sans-serif;
-          background-color: #1a1a1a;
-          color: #fff;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          min-height: 100vh;
-          margin: 0;
-      }
       a {
-          color: #fff;
           text-decoration: none;
           font-size: 18px;
           margin: 8px;
@@ -58,50 +46,42 @@ profile:
           transform: scale(1.05);
           background-color: #4b4fa0;
       }
-      .text-center {
-        text-align: center;
-      }
-
-      .text-white {
-        color: var(--text-color);
-      }
-
       #catEasterEgg {
-          position: fixed;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%) scale(0.8);
-          background: #5F65AC;
-          padding: 20px;
-          border-radius: 12px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          z-index: 1000;
-          color: #fff;
-          box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-          transition: all 0.3s ease;
-          opacity: 0;
-          pointer-events: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.8);
+        background: #5F65AC;
+        padding: 20px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+        z-index: 1000;
+        color: #fff;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+        opacity: 0;
+        pointer-events: none;
       }
 
       #catEasterEgg.show {
-          display: block;
           opacity: 1;
           transform: translate(-50%, -50%) scale(1);
+          pointer-events: auto;
       }
 
       #catEasterEgg img {
-          max-width: 300px;
-          border-radius: 8px;
-          margin-top: 10px;
+        max-width: 300px;
+        border-radius: 8px;
       }
 
       #catEasterEgg p {
-          margin: 0;
-          font-size: 16px;
-      }
+        margin: 0;
+        font-size: 16px;
+      } 
     </style>
     <button class="surprise-button"q id="surpriseTrigger">Click for a surprise! 🎁</button>
     <div id="catEasterEgg">

@@ -11,8 +11,10 @@ profile:
   more_info: >
     <p>A nice day in Washington D.C.</p>
     <p>
+      <a href="https://www.linkedin.com/in/yziyacakmak" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a><br>
       <a href="https://github.com/yziyacakmak" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
       <a href="mailto:yusufzcakmak@gmail.com"><i class="fas fa-envelope"></i> Contact Me</a>
+
     </p>
     <style>
       .profile a {

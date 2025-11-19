@@ -83,6 +83,7 @@ profile:
           box-shadow: 0 8px 24px rgba(0,0,0,0.3);
           transition: all 0.3s ease;
           opacity: 0;
+          pointer-events: none;
       }
 
       #catEasterEgg.show {
@@ -104,7 +105,7 @@ profile:
     </style>
     <button class="surprise-button"q id="surpriseTrigger">Click for a surprise! 🎁</button>
     <div id="catEasterEgg">
-      <p style="text-align: center; color: var(--text-color);">You found a secret cat! 🐱</p>
+      <p>You found a secret cat! 🐱</p>
       <img src="https://thecatapi.com/api/images/get?format=src&type=gif">
     </div>
     <script>
